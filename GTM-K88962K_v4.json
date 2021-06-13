@@ -1,13 +1,13 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2021-06-13 16:40:01",
+    "exportTime": "2021-06-13 17:17:09",
     "containerVersion": {
-        "path": "accounts/6004146397/containers/46830532/versions/3",
+        "path": "accounts/6004146397/containers/46830532/versions/4",
         "accountId": "6004146397",
         "containerId": "46830532",
-        "containerVersionId": "3",
-        "name": "Tag manager Bancolombia",
-        "description": "Solución a los puntos solicitados en el numeral de Tag manager.",
+        "containerVersionId": "4",
+        "name": "Tag Manager Bancolombia",
+        "description": "Se realizan ajustes finales para entrega.",
         "container": {
             "path": "accounts/6004146397/containers/46830532",
             "accountId": "6004146397",
@@ -29,9 +29,9 @@
                 "type": "ua",
                 "parameter": [
                     {
-                        "type": "TEMPLATE",
+                        "type": "BOOLEAN",
                         "key": "nonInteraction",
-                        "value": "{{Click URL}}"
+                        "value": "false"
                     },
                     {
                         "type": "BOOLEAN",
@@ -64,7 +64,7 @@
                         "value": "Url"
                     }
                 ],
-                "fingerprint": "1623556168625",
+                "fingerprint": "1623603442864",
                 "firingTriggerId": [
                     "6"
                 ],
@@ -91,9 +91,9 @@
                         "value": "false"
                     }
                 ],
-                "fingerprint": "1623602351087",
+                "fingerprint": "1623603204781",
                 "firingTriggerId": [
-                    "2147479553"
+                    "4"
                 ],
                 "tagFiringOption": "ONCE_PER_EVENT",
                 "monitoringMetadata": {
@@ -163,9 +163,9 @@
                 "accountId": "6004146397",
                 "containerId": "46830532",
                 "triggerId": "4",
-                "name": "Página vista",
+                "name": "Tag Página vista",
                 "type": "PAGEVIEW",
-                "fingerprint": "1623540068046"
+                "fingerprint": "1623603174835"
             },
             {
                 "accountId": "6004146397",
@@ -199,46 +199,6 @@
                     }
                 ],
                 "fingerprint": "1623567144584"
-            },
-            {
-                "accountId": "6004146397",
-                "containerId": "46830532",
-                "triggerId": "14",
-                "name": "Envío de formulario",
-                "type": "FORM_SUBMISSION",
-                "autoEventFilter": [
-                    {
-                        "type": "CONTAINS",
-                        "parameter": [
-                            {
-                                "type": "TEMPLATE",
-                                "key": "arg0",
-                                "value": "{{Form Classes}}"
-                            },
-                            {
-                                "type": "TEMPLATE",
-                                "key": "arg1",
-                                "value": ".subscribe"
-                            }
-                        ]
-                    }
-                ],
-                "waitForTags": {
-                    "type": "BOOLEAN",
-                    "value": "true"
-                },
-                "checkValidation": {
-                    "type": "BOOLEAN",
-                    "value": "true"
-                },
-                "waitForTagsTimeout": {
-                    "type": "TEMPLATE",
-                    "value": "2000"
-                },
-                "uniqueTriggerId": {
-                    "type": "TEMPLATE"
-                },
-                "fingerprint": "1623567878180"
             }
         ],
         "variable": [
@@ -430,7 +390,7 @@
                 "name": "Form Text"
             }
         ],
-        "fingerprint": "1623602361693",
-        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004146397/containers/46830532/versions/3?apiLink=version"
+        "fingerprint": "1623604594096",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004146397/containers/46830532/versions/4?apiLink=version"
     }
 }
